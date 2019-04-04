@@ -1,6 +1,17 @@
 <template>
   <section>
     <h1>Vue.js Notification</h1>
+    <iframe
+      src="https://giphy.com/embed/s2qXK8wAvkHTO"
+      width="480"
+      height="316"
+      frameborder="0"
+      class="giphy-embed"
+      allowfullscreen
+    ></iframe>
+    <p>
+      <a href="https://giphy.com/gifs/party-birthday-celebration-s2qXK8wAvkHTO">via GIPHY</a>
+    </p>
     <form @submit.prevent="sendMessageNotif(message, expire_time, selected)">
       <div class="col">
         <fieldset>
@@ -26,7 +37,7 @@
           <input type="number" v-model="expire_time" name="expire_time">
         </fieldset>
       </div>
-      <div class="col">
+      <div class="col justify-content-center">
         <input type="submit" value="Show notification" class="btn">
       </div>
     </form>
@@ -101,6 +112,10 @@ export default {
 
 <style scoped>
 /** Style form */
+
+.justify-content-center {
+  justify-content: center;
+}
 
 form {
   width: 511px;
