@@ -59,6 +59,14 @@ export default {
         {
           text: "danger",
           value: "is-danger"
+        },
+        {
+          text: "info",
+          value: "is-info"
+        },
+        {
+          text: "warning",
+          value: "is-warning"
         }
       ]
     };

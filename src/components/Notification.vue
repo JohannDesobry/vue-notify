@@ -103,6 +103,14 @@ export default {
   background-color: #ff3860;
 }
 
+.notif.is-info {
+  background-color: #3273dc;
+}
+
+.notif.is-warning {
+  background-color: #ffdd57;
+}
+
 .text-wrapper {
   width: 100%;
   word-break: break-all;
