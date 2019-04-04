@@ -92,6 +92,7 @@ export default {
   right: 2rem;
   z-index: 9999;
   width: 300px;
+  cursor: pointer;
 }
 
 .notif.is-success {
